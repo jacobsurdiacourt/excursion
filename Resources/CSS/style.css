@@ -1,0 +1,91 @@
+/* Universal styles */
+
+html {
+    text-align: center;
+    font-family: Verdana;
+}
+
+body {
+    margin: 50px;
+}
+
+html .backgr-black {
+    background-color:black;
+}
+h2 {
+    color: white;
+    font-weight: normal;
+    font-size: 50px;
+}
+
+h3 {
+    color: white;
+    font-weight: 300;
+    font-size: 42px;
+    width: 100%;
+}
+
+p {
+    font-size: 21px;
+    color: gray;
+    width: 100%;
+}
+
+/* Header */
+
+p a {
+    color: aquamarine;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+/* Video */
+
+.video-container {
+    max-height: 700px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+video {
+    max-height: 700px;
+}
+
+/* Content */
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.content p {
+    margin-top: 0;
+}
+
+.image-container {
+    max-height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.camp {
+    width: 80%;
+    height: 100%;
+    max-width: 896px;
+}
+
+.phone {
+    height: 100%;
+    width: 10%;
+    max-width: 64px;
+}
+
+/* Footer */
+
+footer {
+    text-align: right;
+}
